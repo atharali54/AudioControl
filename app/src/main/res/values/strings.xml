@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AudioControl</string>
+    <string name="music_player">Music Player</string>
+    <string name="song_title">Song Title</string>
+    <string name="timer">Timer</string>
+    <string name="duration">Duration</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="forward">Forward</string>
+    <string name="reverse">Reverse</string>
+    <string name="todo">TODO</string>
+</resources>

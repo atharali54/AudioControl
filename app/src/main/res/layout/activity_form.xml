@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    tools:context=".FormActivity">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher_background"
+        android:onClick="setDate"
+        android:text="Select Date" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginBottom="-203dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextTextPersonName"
+        android:layout_marginBottom="61dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:tag="name" />
+
+
+</RelativeLayout>
